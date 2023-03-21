@@ -1,292 +1,258 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
 
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-header{
-    position: fixed;
-    background-color: #fff;
-    margin: 20px;
-    margin-top: 0px;
-    z-index: 10;
-    width: 100%;
-    padding: 10px;
-    padding-top: 20px;
+header {
+  position: fixed;
+  background-color: #fff;
+  margin: 20px;
+  margin-top: 0px;
+  z-index: 10;
+  width: 100%;
+  padding: 10px;
+  padding-top: 20px;
 }
-header nav{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-header nav .docplaner h1 a img{   
-    width: 250px;
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-header .half-nav{
-width: 40%;
-}
-header nav .half-nav a{
-    padding: 15px;
-    text-decoration: none;
-    color: #ababab;
-}header nav .half-nav a:hover{ color: #00b39b;}
-
-header .docplaner{
-    margin-left: 200px;
+header nav .docplaner h1 a img {
+  width: 250px;
 }
 
-
-section .logo{
-    text-align: center;
+header .half-nav {
+  width: 40%;
 }
-section .logo .h120{
-    margin: 1em 0;
-    font-family: Work Sans,Arial,sans-serif;
-    font-weight: 300;
-    letter-spacing: -.3px;
-    color: #00b39b;
-    font-size: 2.125rem;
+header nav .half-nav a {
+  padding: 15px;
+  text-decoration: none;
+  color: #ababab;
+}
+header nav .half-nav a:hover {
+  color: #00b39b;
+}
+
+header .docplaner {
+  margin-left: 200px;
+}
+
+section .logo {
+  text-align: center;
+}
+section .logo .h120 {
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  font-size: 2.125rem;
 }
 
 section .cols {
-    display: flex;
-    width: 75%;
-    margin-left: 170px;
+  display: flex;
+  width: 75%;
+  margin-left: 170px;
 }
-section .cols .col-1{
-
+section .cols .col-1 {
 }
-section .cols .col-1 p{
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin: 0.8em 0;
-    line-height: 1.75;
-    font-weight: 400;
-
+section .cols .col-1 p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
 }
-section .services{
-    margin: 100px;
-    display: flex;
-    justify-content: center;
+section .services {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
 }
 
-
-section .services .serv1{
-    background-color: #00b39b;
-    width: 300px;
-    height: 345px;
-    margin: 10px;
-    border-radius: 10px;
-    color: white;
-    font-family: Work Sans,Arial,sans-serif;
+section .services .serv1 {
+  background-color: #00b39b;
+  width: 300px;
+  height: 345px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Work Sans, Arial, sans-serif;
 }
 
-section .services .serv2{
-    background-color: #3d83df;
-    width: 350px;
-    height: 345px;    
-    margin: 10px;
-    border-radius: 10px;
-    color: white;
-
+section .services .serv2 {
+  background-color: #3d83df;
+  width: 350px;
+  height: 345px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
 }
 
-
-section .services .serv3{
-    background-color: #1b2734;
-    width: 350px;
-    height: 345px;    
-    margin: 10px;
-    border-radius: 10px;
-    color: white;
+section .services .serv3 {
+  background-color: #1b2734;
+  width: 350px;
+  height: 345px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
 }
 
-section .sec2{
-    display: flex;
-    width: 100%;
-    /* justify-content: center; */
-    margin-left: 160px;
+section .sec2 {
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+  margin-left: 160px;
 }
-section .sec2 h1{
-    color: #00b39b;
-    margin: 1em 0;
-    font-family: Work Sans,Arial,sans-serif;
-    font-weight: 300;
-    letter-spacing: -.3px;
+section .sec2 h1 {
+  color: #00b39b;
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
 }
-section .sec2 .marks .brands__logos{
-    display: flex;
-    width: 62%;
-    flex-wrap: wrap;
-    margin-left: 110px;    
+section .sec2 .marks .brands__logos {
+  display: flex;
+  width: 62%;
+  flex-wrap: wrap;
+  margin-left: 110px;
 }
-section .sec2 .marks .brands__logos  li a svg{
-    width: 120px;
-    margin: 10px;
+section .sec2 .marks .brands__logos li a svg {
+  width: 120px;
+  margin: 10px;
 }
 section .sec2 .marks .brands__logos a {
-margin: 10px;
+  margin: 10px;
 }
 section .sec2 .marks .brands__logos .jameda {
-    padding: 15px;
+  padding: 15px;
 }
 section .sec2 .marks .brands__logos .tuotempo {
-    padding: 20px;
+  padding: 20px;
 }
 
-
-
-
-section .sec3{
-    background-color: #e5faf8;
-    width: 100%;
+section .sec3 {
+  background-color: #e5faf8;
+  width: 100%;
+  position: relative;
 }
 section .sec3 .coco h1 {
-    color: #00b39b;
-    font-family: Work Sans,Arial,sans-serif;
-    font-weight: 300;
-    letter-spacing: -.3px;
-    margin: 60px;
-    margin-top: -200px;
-    margin-left: 200px;
-    font-size: 40px;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 60px;
+  margin-top: -200px;
+  margin-left: 200px;
+  font-size: 40px;
 }
-section .sec3 .coco{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
+section .sec3 .coco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
-section .sec3 .coco .co123{
-    margin-right: -300px;
-    margin-top: 50px;
-}
-
-section .sec3 .coco .co123 div{
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    margin: 12px;
-    border-radius: 10px;
-    text-align: center;
-}
-section .sec3 .coco .co123 div h3{
-    margin: 10px;
-    color: #00b39b;
-    font-family: Work Sans,Arial,sans-serif;
-    font-weight: 300;
-    letter-spacing: -.3px;
-
+section .sec3 .coco .co123 {
+  margin-right: -300px;
+  margin-top: 50px;
 }
 
-section .sec3 .coco .co123 div p{
-    margin: 15px;
-    color: #8c8a8a;
-    font-size: 15px;
+section .sec3 .coco .co123 div {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  margin: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+section .sec3 .coco .co123 div h3 {
+  margin: 10px;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
 }
 
-section .sec3 .coco .co123 div img{
-    margin: 15px;
-    margin-top: 50px;
+section .sec3 .coco .co123 div p {
+  margin: 15px;
+  color: #8c8a8a;
+  font-size: 15px;
 }
 
-section .sec3 .coco .co123{
-    display: flex;
-    flex-wrap: wrap;
+section .sec3 .coco .co123 div img {
+  margin: 15px;
+  margin-top: 50px;
 }
 
-section .sec3 .coco #mg{
-    position: absolute;
-    left: 40px;
-    margin-top: 400px;
-}
-section .sec4{
-    margin: 100px;
+section .sec3 .coco .co123 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-section .sec4 .vc{
-    margin-left: 360px;
-    margin-bottom: 100px;
+section .sec3 .coco #mg {
+  position: absolute;
+  left: 40px;
+  margin-top: 400px;
 }
-section .sec4 h1{
-    font-family: Work Sans,Arial,sans-serif;
-    font-weight: 300;
-    letter-spacing: -.3px;
-    color: #00b39b;
-    width: 400px;
-    text-align: center;
-    font-size: 30px;
-}
-section .sec4 p{
-    font-family: Roboto,Arial,sans-serif;
-    color: #747474;
-    margin: 30px;
-    width: 350px;
-    text-align: center;
+section .sec4 {
+  margin: 100px;
 }
 
-section .sec4 .pic{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 100px;
+section .sec4 .vc {
+  margin-left: 360px;
+  margin-bottom: 100px;
 }
-section .sec4 .pic a{
-    margin: 10px;
+section .sec4 h1 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  width: 400px;
+  text-align: center;
+  font-size: 30px;
 }
-section .sec4 .pic a:hover{
-    box-shadow: 0px 0px 10px 5px rgb(196, 195, 195);
+section .sec4 p {
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  margin: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+section .sec4 .pic {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 100px;
 }
 section .sec4 .pic a {
-    text-decoration: none;
+  margin: 10px;
 }
-
+section .sec4 .pic a:hover {
+  box-shadow: 0px 0px 10px 5px rgb(196, 195, 195);
+}
+section .sec4 .pic a {
+  text-decoration: none;
+}
 
 section .sec4 .pic a .office__desc {
-    margin: 20px;
-    color: #747474;
+  margin: 20px;
+  color: #747474;
 }
 
-section .sec4 .pic a .office__desc span{
-    font-size: 12px;
-    color: #fff;
-    background-color: #1662c6;
-    padding: 10px;
-    border-radius: 8px;
-    margin-left: 50px;
+section .sec4 .pic a .office__desc span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #1662c6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
